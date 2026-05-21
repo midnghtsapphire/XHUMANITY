@@ -12,7 +12,7 @@ Deliver verified interventions that reduce **10 million kg CO2e (10,000 metric t
 
 ## Expanded Research Scope (Required in revvel-standards)
 
-Every WR/PR must include robust intervention search coverage beyond the baseline portfolio, including:
+Every WR/PR must include robust intervention search coverage beyond the baseline portfolio by evaluating all pathway categories below and documenting included/excluded decisions for regional fit:
 
 - **Top-priority building/electrification pathways**: heat pumps, distributed solar, and other rapid electrification measures.
 - **Water-based generation pathways**: hydropower optimization plus marine/water energy modules where regional resource quality supports deployment.
