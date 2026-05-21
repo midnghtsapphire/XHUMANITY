@@ -2,7 +2,7 @@
 
 ## Goal
 
-Deliver verified interventions that cumulatively reduce **1.5 trillion kg CO2e by 2035**.
+Deliver a single ship-to-market iteration that completes the project and website now, with verified interventions reducing **10 million kg CO2e in 3 years**.
 
 ## Market Need (Research-Based)
 
@@ -22,7 +22,7 @@ Deliver verified interventions that cumulatively reduce **1.5 trillion kg CO2e b
 XHUMANITY provides:
 
 - Program design for high-impact decarbonization portfolios
-- Deployment playbooks for pilots and scale-up
+- One-iteration deployment playbook for immediate launch
 - Verified emissions accounting and performance reporting
 
 ## Positioning
@@ -37,11 +37,11 @@ XHUMANITY provides:
 2. Climate-finance and NGO partnerships
 3. Public demonstration pilots in high-emissions regions
 
-## 2035 Milestone Framework
+## Delivery Mode
 
-- 2026-2027: Pilot validation and MRV foundation
-- 2028-2030: Multi-region scale and portfolio standardization
-- 2031-2035: Compounding deployment to reach cumulative target
+- Single iteration only (no staged milestone tracks)
+- S2M-complete delivery of the full project and website in one pass
+- Immediate go-live execution with ongoing measurement and reporting
 
 ## Sources
 
