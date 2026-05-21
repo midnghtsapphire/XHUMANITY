@@ -22,6 +22,7 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
 - Example: if a region scores 0.10 baseline share, 0.12 abatement potential, and 0.08 readiness, quota share = `0.5(0.10)+0.3(0.12)+0.2(0.08)=0.102` (**0.102, or 10.2%**) of global pathway allocation.
 - Apply a 0.9 conservatism factor uniformly across intervention types to account for historical model overestimation and verification lag (default uncertainty buffer until replaced by annual third-party calibration), and keep a public registry of project IDs to prevent double counting.
 - Select launch partners (utilities, municipalities, industrial operators).
+- Confirm the one-iteration release includes a testable website/UI; for ACL/API/MCP-first implementations, confirm companion interface flows are live for tool testing.
 
 - Publish quarterly scorecards: planned vs achieved reductions.
 - Use conservative accounting (no double counting, no unverifiable offsets).

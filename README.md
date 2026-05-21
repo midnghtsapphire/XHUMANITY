@@ -6,6 +6,11 @@ XHUMANITY is a standards-first initiative focused on one measurable mission:
 
 This repository provides the revvel-standards ship-to-market baseline for that mission.
 
+## Revvel-Standards S2M Rules
+
+- Every WR/PR must ship in one iteration with a complete, testable website/UI surface.
+- If the product core is ACL, API, or MCP, include a companion UI/website flow (engine-style test surface) so the tool can be exercised end to end.
+
 ## 3-Year Objective
 
 - Baseline period: 2026 start

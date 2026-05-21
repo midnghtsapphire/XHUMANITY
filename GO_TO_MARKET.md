@@ -23,6 +23,7 @@ XHUMANITY provides:
 
 - Program design for high-impact decarbonization portfolios
 - One-iteration deployment playbook for immediate launch
+- Required testable website/UI delivery for each WR; for ACL/API/MCP-first products, deliver a companion interface to run real test flows
 - Verified emissions accounting and performance reporting
 
 ## Positioning
