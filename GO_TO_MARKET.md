@@ -6,7 +6,7 @@ Deliver verified interventions that cumulatively reduce **1.5 trillion kg CO2e b
 
 ## Market Need (Research-Based)
 
-1. **Global emissions remain far above net-zero pathways** (IPCC AR6 synthesis).
+1. **Global emissions remain far above net-zero pathways** (IPCC AR6 Synthesis Report, 2023).
 2. **Energy demand keeps rising**, requiring faster deployment of clean generation and efficiency (IEA World Energy Outlook).
 3. **Methane cuts are among the fastest near-term climate wins** (UNEP Global Methane Assessment).
 
@@ -48,4 +48,3 @@ XHUMANITY provides:
 - IPCC, *AR6 Synthesis Report*
 - International Energy Agency (IEA), *World Energy Outlook*
 - UNEP, *Global Methane Assessment*
-

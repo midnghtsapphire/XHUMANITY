@@ -14,7 +14,7 @@ XHUMANITY stands for measurable climate action, transparent reporting, and credi
 ## Messaging Rules
 
 1. Always include the mission in communications:
-   - “Reduce carbon emissions by 1.5 trillion kg CO2e by 2035.”
+   - “Reduce global carbon emissions by 1.5 trillion kg CO2e by 2035.”
 2. Never present projections as achieved outcomes.
 3. Pair all claims with data source and time period.
 
@@ -28,4 +28,3 @@ XHUMANITY stands for measurable climate action, transparent reporting, and credi
 
 - Use “verified reduction” only for externally auditable numbers.
 - Use “estimated reduction” for model-based forward projections.
-

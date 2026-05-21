@@ -5,7 +5,11 @@ This guide defines how to deploy XHUMANITY programs toward the 2035 emissions ta
 ## 1) Program Setup (Weeks 1-4)
 
 - Create a country/region emissions baseline (electricity, buildings, industry, methane).
-- Define local reduction quota aligned to the global 1.5 trillion kg CO2e target.
+- Define local reduction quota aligned to the global 1.5 trillion kg CO2e target using:
+  - Share of baseline emissions (50% weight)
+  - Abatement potential by sector (30% weight)
+  - Delivery readiness (20% weight)
+- Apply a 0.9 conservatism factor to modeled reductions and keep a public registry of project IDs to prevent double counting.
 - Select pilot partners (utilities, municipalities, industrial operators).
 
 ## 2) Pilot Deployment (Months 2-6)
@@ -30,4 +34,3 @@ This guide defines how to deploy XHUMANITY programs toward the 2035 emissions ta
 - Publish quarterly scorecards: planned vs achieved reductions.
 - Use conservative accounting (no double counting, no unverifiable offsets).
 - Escalate underperformance with corrective plans within 30 days.
-
