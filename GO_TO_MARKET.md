@@ -2,7 +2,7 @@
 
 ## Goal
 
-Deliver a single ship-to-market iteration that completes both the project infrastructure and public website, with verified interventions reducing **10 million kg CO2e in 3 years**.
+Deliver a single ship-to-market iteration that completes both the project infrastructure and public website. Verified interventions will reduce **10 million kg CO2e in 3 years**.
 
 ## Market Need (Research-Based)
 
