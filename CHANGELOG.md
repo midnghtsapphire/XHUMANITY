@@ -11,6 +11,7 @@ All notable changes to this project are documented in this file.
 - Added revvel-standards rule that every WR/PR includes a testable website/UI surface, including companion UI flows for ACL/API/MCP-first products.
 - Expanded revvel-standards research/implementation requirements to cover heat pumps, solar, water-energy modules, green software for AI infrastructure, and creative AWG/rooftop pathways with evidence-backed deployment records.
 - Added explicit front-to-back research engine wiring contract (intake -> evaluate -> interface -> execute) as a required single-iteration S2M implementation path.
+- Added explicit README + deployment requirements to record the live Website in Test (Vercel URL), automation reference, and intervention export path for revvel traceability.
 
 ## [0.1.0] - 2026-05-21
 

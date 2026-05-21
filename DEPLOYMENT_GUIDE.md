@@ -50,6 +50,10 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
 - Apply a 0.9 conservatism factor uniformly across intervention types to account for historical model overestimation and verification lag (default uncertainty buffer until replaced by annual third-party calibration), and keep a public registry of project IDs to prevent double counting.
 - Select launch partners (utilities, municipalities, industrial operators).
 - Confirm the one-iteration release includes a testable website/UI; for ACL/API/MCP-first implementations, confirm companion interface flows are live for tool testing.
+- Publish and record the live website-in-test deployment reference:
+  - `Website in Test (Vercel)` URL in `README.md`
+  - deployment automation/job reference used to publish the website test surface
+  - machine-readable export path used by the website test flow (`intervention_modules.json`)
 
 - Publish quarterly scorecards: planned vs achieved reductions.
 - Use conservative accounting (no double counting, no unverifiable offsets).
