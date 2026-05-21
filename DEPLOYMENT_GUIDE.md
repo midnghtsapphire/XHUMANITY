@@ -1,6 +1,6 @@
 # Deployment Guide
 
-This guide defines how to deploy XHUMANITY in a single ship-to-market iteration toward a 3-year target of 10 million kg CO2e reduction.
+This guide defines how to deploy XHUMANITY in a single ship-to-market iteration toward a 3-year target of 10 million kg CO2e reduction, followed by continuous monitoring and reporting.
 
 ## Single Iteration Deployment
 
@@ -19,7 +19,7 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
 - Store and compute `Quota Share` as a decimal value (0-1) to 6 decimal places; convert to percentage only for reporting output.
 - Example: if a region scores 0.10 baseline share, 0.12 abatement potential, and 0.08 readiness, quota share = `0.5(0.10)+0.3(0.12)+0.2(0.08)=0.102` (**0.102, or 10.2%**) of global pathway allocation.
 - Apply a 0.9 conservatism factor uniformly across intervention types to account for historical model overestimation and verification lag (default uncertainty buffer until replaced by annual third-party calibration), and keep a public registry of project IDs to prevent double counting.
-- Select pilot partners (utilities, municipalities, industrial operators).
+- Select launch partners (utilities, municipalities, industrial operators).
 
 - Publish quarterly scorecards: planned vs achieved reductions.
 - Use conservative accounting (no double counting, no unverifiable offsets).
