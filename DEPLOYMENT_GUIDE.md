@@ -1,8 +1,8 @@
 # Deployment Guide
 
-This guide defines how to deploy XHUMANITY in a single ship-to-market iteration toward a 3-year emissions target.
+This guide defines how to deploy XHUMANITY in a single ship-to-market iteration toward a 3-year target of 10 million kg CO2e reduction.
 
-## Single Iteration Deployment (Now)
+## Single Iteration Deployment
 
 - Create a country/region emissions baseline (electricity, buildings, industry, methane).
 - Define local reduction quota aligned to the global 10 million kg CO2e target using:
