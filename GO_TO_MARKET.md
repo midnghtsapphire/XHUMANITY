@@ -17,7 +17,7 @@ Every WR/PR must include robust intervention search coverage beyond the baseline
 - **Top-priority building/electrification pathways**: heat pumps, distributed solar, and other rapid electrification measures.
 - **Water-based generation pathways**: hydropower optimization plus marine/water energy modules where regional resource quality supports deployment.
 - **Digital and AI infrastructure pathways**: green software practices, efficient compute architecture, and carbon-aware operations for server farms/data centers.
-- **Creative integrated infrastructure**: atmospheric water generation (AWG), rooftop gardens, and biosolar roofs (co-located vegetation + rooftop solar PV) when they meet measurable regional thresholds (default: >=5% cooling-load reduction, >=5% non-potable water resilience gain, or >=3% total site energy-efficiency gain).
+- **Creative integrated infrastructure**: atmospheric water generation (AWG), rooftop gardens, and biosolar roofs (co-located vegetation + rooftop solar PV) when they meet measurable regional thresholds (preliminary defaults: >=5% cooling-load reduction, >=5% non-potable water resilience gain, or >=3% total site energy-efficiency gain; calibrate per region in deployment records).
 
 ## Intervention Discovery Engine (Implementation Requirement)
 
@@ -26,7 +26,7 @@ To implement this in one iteration, each WR/PR must ship an intervention discove
 1. Candidate intervention module (`module_id`, `module_name`, `status`)
 2. Evidence strength (`evidence_links`, using peer-reviewed / intergovernmental / public-agency sources)
 3. Deployment fit by region (`readiness_constraints`, optional `region_applicability`)
-4. Expected cumulative 3-year abatement contribution (`expected_abatement_kg_co2e` + `abatement_period_years=3`)
+4. Expected cumulative 3-year abatement contribution (`expected_abatement_kg_co2e` with `abatement_period_years` set to `3`)
 5. Pilot design and measurement plan (`pilot_measurement_plan`, optional `deployment_date`)
 
 ## Target Customers

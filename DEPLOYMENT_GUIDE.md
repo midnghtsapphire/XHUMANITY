@@ -16,12 +16,12 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
   - Creative co-benefit modules (AWG, rooftop gardens/biosolar) when regionally feasible
 - For each candidate module, store: evidence links, readiness constraints, expected 3-year abatement contribution, and pilot measurement design.
 - Minimum JSON schema for `intervention_modules.json`:
-  - `module_id` (required string, lowercase alphanumeric segments with optional underscore separators, regex `^[a-z0-9]+(_[a-z0-9]+)*$`, 1-64 chars; examples: `solar`, `heat_pump_residential`)
+  - `module_id` (required string, lowercase alphanumeric segments with optional underscore separators, regex `^[a-z0-9]+(_[a-z0-9]+)*$`; enforce 1-64 chars in field validation; examples: `solar`, `heat_pump_residential`)
   - `module_name` (required string, 1-120 chars)
   - `evidence_links` (required array of 1+ URLs, each matching `^https://`)
   - `readiness_constraints` (required array of 1+ strings, each 1-240 chars)
   - `expected_abatement_kg_co2e` (required number, projected abatement value, `>= 0`)
-  - `abatement_period_years` (required integer, currently `3` for this standard)
+  - `abatement_period_years` (required integer, default `3` for this standard; configurable for future standards revisions)
   - `pilot_measurement_plan` (required string, 1-1000 chars)
   - `status` (required enum value: `candidate`, `pilot`, or `deployed`)
   - `priority_score_0_1` (optional number, normalized 0-1 ranking score used by dashboard ordering)
