@@ -2,7 +2,7 @@
 
 ## Goal
 
-Deliver verified interventions that reduce **10 million kg CO2e in 3 years** through a single ship-to-market iteration completing both the project infrastructure and public website.
+Deliver verified interventions that reduce **10 million kg CO2e (10,000 metric tons CO2e) in 3 years** through a single ship-to-market iteration completing both the project infrastructure and public website.
 
 ## Market Need (Research-Based)
 
@@ -41,7 +41,7 @@ XHUMANITY provides:
 
 - Single iteration only (no staged milestone tracks)
 - S2M-complete delivery of the full project and website in one pass
-- Immediate go-live execution with ongoing measurement and reporting
+- Immediate go-live execution; the single iteration delivers the full project scope, while measurement and reporting continue post-launch
 
 ## Sources
 

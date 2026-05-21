@@ -1,6 +1,6 @@
 # Deployment Guide
 
-This guide defines how to deploy XHUMANITY in a single ship-to-market iteration toward a 3-year target of 10 million kg CO2e reduction, followed by continuous monitoring and reporting.
+This guide defines how to deploy XHUMANITY in a single ship-to-market iteration toward a 3-year target of 10 million kg CO2e reduction (10,000 metric tons CO2e), followed by continuous monitoring and reporting.
 
 ## Single Iteration Deployment
 
@@ -13,6 +13,7 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
 - Delivery Readiness Score: normalized 0-1 score from implementation readiness index (permitting maturity, partner readiness, financing availability, and grid interconnection readiness).
 - Technical potential model definition:
   - `regional feasible tCO2e reduction = sum(sector baseline emissions × feasible reduction % within 3-year window)` across electricity, buildings, industry, and methane.
+  - Feasible reduction percentages are sourced from the current planning cycle's sector abatement assumptions register and must be versioned in deployment records.
 - Implementation readiness index definition (equal weighting):
   - `Readiness Score = 0.25(Permitting) + 0.25(Partner) + 0.25(Financing) + 0.25(Grid)`, with each factor scored 0-1 against a published rubric.
 - Calculation formula: `Quota Share = 0.5(Baseline Share) + 0.3(Abatement Potential Score) + 0.2(Delivery Readiness Score)`.

@@ -2,7 +2,7 @@
 
 XHUMANITY is a standards-first initiative focused on one measurable mission:
 
-- **Reduce global carbon emissions by 10 million kg CO2e (10,000 tCO2e) in 3 years**.
+- **Reduce global carbon emissions by 10 million kg CO2e (10,000 metric tons CO2e) in 3 years**.
 
 This repository provides the revvel-standards ship-to-market baseline for that mission.
 
@@ -10,7 +10,7 @@ This repository provides the revvel-standards ship-to-market baseline for that m
 
 - Baseline period: 2026 start
 - Target window: 3 years
-- Cumulative reduction target: **10 million kg CO2e (10,000 tCO2e)**
+- Cumulative reduction target: **10 million kg CO2e (10,000 metric tons CO2e)**
 - Primary levers:
   1. Grid decarbonization acceleration
   2. Building efficiency retrofits
