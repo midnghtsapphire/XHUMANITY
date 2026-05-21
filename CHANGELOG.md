@@ -10,6 +10,7 @@ All notable changes to this project are documented in this file.
 - Updated mission target to **10 million kg CO2e reduction in 3 years** across project documentation.
 - Added revvel-standards rule that every WR/PR includes a testable website/UI surface, including companion UI flows for ACL/API/MCP-first products.
 - Expanded revvel-standards research/implementation requirements to cover heat pumps, solar, water-energy modules, green software for AI infrastructure, and creative AWG/rooftop pathways with evidence-backed deployment records.
+- Added explicit front-to-back research engine wiring contract (intake -> evaluate -> interface -> execute) as a required single-iteration S2M implementation path.
 
 ## [0.1.0] - 2026-05-21
 

@@ -29,6 +29,15 @@ To implement this in one iteration, each WR/PR must ship an intervention discove
 4. Expected cumulative 3-year abatement contribution (`expected_abatement_kg_co2e` with `abatement_period_years` set to `3`)
 5. Pilot design and measurement plan (`pilot_measurement_plan`, optional `deployment_date`)
 
+## Front-to-Back Wiring Contract (Ship-to-Market)
+
+The research engine must be implemented end to end in the same release:
+
+1. **Research intake layer**: continuously add candidate modules and evidence links across heat pumps, solar, water-energy, green software/AI infrastructure, and creative integrated infrastructure.
+2. **Evaluation layer**: apply readiness constraints + projected abatement scoring and produce ranked module outputs.
+3. **Interface layer**: expose ranked outputs in a testable website/UI flow that can be exercised by humans and tools.
+4. **Execution layer**: use ranked outputs to select pilots/deployments and record status progression (`candidate` -> `pilot` -> `deployed`).
+
 ## Target Customers
 
 - National and regional governments with legally binding climate plans

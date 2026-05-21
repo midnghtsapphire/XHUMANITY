@@ -11,6 +11,17 @@ This repository provides the revvel-standards ship-to-market baseline for that m
 - Every WR/PR must ship in one iteration with a complete, testable website/UI surface.
 - If the product core is ACL, API, or MCP, include a companion UI/website flow (engine-style test surface) so the tool can be exercised end to end.
 
+## Front-to-Back Research Engine Requirement
+
+Every S2M WR/PR must ship a fully wired research engine from intake to deployment output in the same iteration:
+
+1. Intake research signals (energy module candidates + source evidence)
+2. Evaluate/score modules (abatement, readiness, regional fit)
+3. Publish outcomes in a testable website/UI dashboard and machine-readable export
+4. Execute pilot/deployment decisions using the same scored outputs
+
+Implementation details are defined in `GO_TO_MARKET.md` and `DEPLOYMENT_GUIDE.md`.
+
 ## 3-Year Objective
 
 - Baseline period: 2026 start

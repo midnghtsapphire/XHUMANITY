@@ -5,6 +5,11 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
 ## Single Iteration Deployment
 
 - Create a country/region emissions baseline (electricity, buildings, industry, methane).
+- Enforce front-to-back research engine delivery in the same iteration:
+  - Intake: evidence-backed module candidates
+  - Evaluate: scored and ranked module outputs
+  - Interface: testable website/UI dashboard + export
+  - Execute: pilot/deployment actions from ranked outputs
 - Run the **Intervention Discovery Engine** in the same one-iteration release and publish results in the project website/UI test surface as:
   - A dashboard page summarizing module priority scores (derived from abatement + readiness) and rollout state, and
   - A machine-readable export (`intervention_modules.json`) for tool testing.
