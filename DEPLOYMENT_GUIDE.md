@@ -5,7 +5,9 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
 ## Single Iteration Deployment
 
 - Create a country/region emissions baseline (electricity, buildings, industry, methane).
-- Run the **Intervention Discovery Engine** in the same one-iteration release and publish results in the project website/UI test surface.
+- Run the **Intervention Discovery Engine** in the same one-iteration release and publish results in the project website/UI test surface as:
+  - A dashboard page summarizing module scores and rollout state, and
+  - A machine-readable export (`intervention_modules.json`) for tool testing.
 - Minimum required module search coverage per WR/PR:
   - Heat pumps and building electrification
   - Solar and other distributed clean-power modules
@@ -13,6 +15,14 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
   - Green software and AI/data-center efficiency pathways
   - Creative co-benefit modules (AWG, rooftop gardens/biosolar) when regionally feasible
 - For each candidate module, store: evidence links, readiness constraints, expected 3-year abatement contribution, and pilot measurement design.
+- Minimum JSON schema for `intervention_modules.json`:
+  - `module_id` (string)
+  - `module_name` (string)
+  - `evidence_links` (array of URLs)
+  - `readiness_constraints` (array of strings)
+  - `abatement_3y_kg_co2e` (number)
+  - `pilot_measurement_plan` (string)
+  - `status` (`candidate` | `pilot` | `deployed`)
 - Define local reduction quota aligned to the global 10 million kg CO2e target using:
   - Share of baseline emissions (50% weight)
   - Abatement potential by sector (30% weight)

@@ -14,10 +14,10 @@ Deliver verified interventions that reduce **10 million kg CO2e (10,000 metric t
 
 Every WR/PR must include robust intervention search coverage beyond the baseline portfolio, including:
 
-- **U10 building/electrification pathways**: heat pumps, distributed solar, and other rapid electrification measures.
+- **Top-priority building/electrification pathways**: heat pumps, distributed solar, and other rapid electrification measures.
 - **Water-based generation pathways**: hydropower optimization plus marine/water energy modules where regional resource quality supports deployment.
 - **Digital and AI infrastructure pathways**: green software practices, efficient compute architecture, and carbon-aware operations for server farms/data centers.
-- **Creative integrated infrastructure**: atmospheric water generation (AWG), rooftop gardens, and biosolar roof concepts when they improve cooling, water resilience, or total system efficiency.
+- **Creative integrated infrastructure**: atmospheric water generation (AWG), rooftop gardens, and biosolar roofs (co-located vegetation + rooftop solar PV) when they improve cooling, water resilience, or total system efficiency.
 
 ## Intervention Discovery Engine (Implementation Requirement)
 
