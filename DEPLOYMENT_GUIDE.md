@@ -21,7 +21,7 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
   - `evidence_links` (required array of 1+ URLs, each matching `^https://`)
   - `readiness_constraints` (required array of 1+ strings, each 1-240 chars)
   - `expected_abatement_kg_co2e` (required number, projected abatement value, `>= 0`)
-  - `abatement_period_years` (required integer, default `3` for this standard; configurable for future standards revisions)
+  - `abatement_period_years` (required integer; set to `3` for this standard, configurable in future standards revisions)
   - `pilot_measurement_plan` (required string, 1-1000 chars)
   - `status` (required enum value: `candidate`, `pilot`, or `deployed`)
   - `priority_score_0_1` (optional number, normalized 0-1 ranking score used by dashboard ordering)

@@ -17,7 +17,7 @@ Every WR/PR must include robust intervention search coverage beyond the baseline
 - **Top-priority building/electrification pathways**: heat pumps, distributed solar, and other rapid electrification measures.
 - **Water-based generation pathways**: hydropower optimization plus marine/water energy modules where regional resource quality supports deployment.
 - **Digital and AI infrastructure pathways**: green software practices, efficient compute architecture, and carbon-aware operations for server farms/data centers.
-- **Creative integrated infrastructure**: atmospheric water generation (AWG), rooftop gardens, and biosolar roofs (co-located vegetation + rooftop solar PV) when they meet measurable regional thresholds (preliminary defaults: >=5% cooling-load reduction, >=5% non-potable water resilience gain, or >=3% total site energy-efficiency gain; calibrate per region in deployment records).
+- **Creative integrated infrastructure**: atmospheric water generation (AWG), rooftop gardens, and biosolar roofs (co-located vegetation + rooftop solar PV) when they meet measurable regional thresholds (preliminary defaults, each measured as % improvement versus regional baseline: >=5% cooling-load reduction, >=5% non-potable water supply reliability gain, or >=3% total site energy-efficiency gain; calibrate per region in deployment records).
 
 ## Intervention Discovery Engine (Implementation Requirement)
 
