@@ -23,10 +23,12 @@ Every WR/PR must include robust intervention search coverage beyond the baseline
 
 To implement this in one iteration, each WR/PR must ship an intervention discovery engine section (project + website/UI) that includes:
 
+Schema reference: see `DEPLOYMENT_GUIDE.md` for the complete `intervention_modules.json` specification.
+
 1. Candidate intervention module (`module_id`, `module_name`, `status`)
 2. Evidence strength (`evidence_links`, using peer-reviewed / intergovernmental / public-agency sources)
 3. Deployment fit by region (`readiness_constraints`, optional `region_applicability`)
-4. Expected cumulative 3-year abatement contribution (`expected_total_abatement_3y_kg_co2e`)
+4. Expected cumulative 3-year abatement contribution (`expected_abatement_kg_co2e` + `abatement_period_years=3`)
 5. Pilot design and measurement plan (`pilot_measurement_plan`, optional `deployment_date`)
 
 ## Target Customers
