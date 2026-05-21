@@ -41,7 +41,7 @@ XHUMANITY provides:
 
 - Single iteration only (no staged milestone tracks)
 - S2M-complete delivery of the full project and website in one pass
-- Immediate go-live execution; the single iteration delivers the full project scope, while measurement and reporting continue post-launch
+- Immediate go-live execution; the single iteration delivers the full project scope, and ongoing measurement/reporting is operational maintenance outside iteration scope
 
 ## Sources
 

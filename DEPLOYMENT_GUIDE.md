@@ -14,6 +14,7 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
 - Technical potential model definition:
   - `regional feasible tCO2e reduction = sum(sector baseline emissions × feasible reduction % within 3-year window)` across electricity, buildings, industry, and methane.
   - Feasible reduction percentages are sourced from the current planning cycle's sector abatement assumptions register and must be versioned in deployment records.
+  - Register location: `DEPLOYMENT_GUIDE.md` deployment records appendix maintained by program operations for each planning cycle.
 - Implementation readiness index definition (equal weighting):
   - `Readiness Score = 0.25(Permitting) + 0.25(Partner) + 0.25(Financing) + 0.25(Grid)`, with each factor scored 0-1 against a published rubric.
 - Calculation formula: `Quota Share = 0.5(Baseline Share) + 0.3(Abatement Potential Score) + 0.2(Delivery Readiness Score)`.
@@ -25,3 +26,7 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
 - Publish quarterly scorecards: planned vs achieved reductions.
 - Use conservative accounting (no double counting, no unverifiable offsets).
 - Escalate underperformance with corrective plans within 30 days.
+
+## Deployment Records Appendix
+
+- Maintain the sector abatement assumptions register in deployment records for each planning cycle version.
