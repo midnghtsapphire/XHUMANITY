@@ -54,7 +54,7 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
   - `Website in Test (Vercel)` URL in `README.md`
   - deployment automation/job reference used to publish the website test surface
   - machine-readable export path used by the website test flow (`intervention_modules.json`)
-  - enforce Vercel hosting for Website-in-Test deployments (do not use Netlify/Netfly)
+  - enforce Vercel hosting for Website-in-Test deployments (do not use Netlify)
 
 - Publish quarterly scorecards: planned vs achieved reductions.
 - Use conservative accounting (no double counting, no unverifiable offsets).
