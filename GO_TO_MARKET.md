@@ -17,13 +17,11 @@ Every WR/PR must include robust intervention search coverage beyond the baseline
 - **Top-priority building/electrification pathways**: heat pumps, distributed solar, and other rapid electrification measures.
 - **Water-based generation pathways**: hydropower optimization plus marine/water energy modules where regional resource quality supports deployment.
 - **Digital and AI infrastructure pathways**: green software practices, efficient compute architecture, and carbon-aware operations for server farms/data centers.
-- **Creative integrated infrastructure**: atmospheric water generation (AWG), rooftop gardens, and biosolar roofs (co-located vegetation + rooftop solar PV) when they improve cooling, water resilience, or total system efficiency.
+- **Creative integrated infrastructure**: atmospheric water generation (AWG), rooftop gardens, and biosolar roofs (co-located vegetation + rooftop solar PV) when they meet measurable regional thresholds (default: >=5% cooling-load reduction, >=5% non-potable water resilience gain, or >=3% total site energy-efficiency gain).
 
 ## Intervention Discovery Engine (Implementation Requirement)
 
-To implement this in one iteration, each WR/PR must ship an intervention discovery engine section (project + website/UI) that includes:
-
-Schema reference: see `DEPLOYMENT_GUIDE.md` for the complete `intervention_modules.json` specification.
+To implement this in one iteration, each WR/PR must ship an intervention discovery engine section (project + website/UI) with the following core fields (see `DEPLOYMENT_GUIDE.md` for the complete `intervention_modules.json` specification):
 
 1. Candidate intervention module (`module_id`, `module_name`, `status`)
 2. Evidence strength (`evidence_links`, using peer-reviewed / intergovernmental / public-agency sources)
