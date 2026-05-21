@@ -1,4 +1,4 @@
-# Go-To-Market (S2M) Plan
+# Ship-To-Market (S2M) Plan
 
 ## Goal
 
