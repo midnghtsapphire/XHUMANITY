@@ -10,6 +10,25 @@ Deliver verified interventions that reduce **10 million kg CO2e (10,000 metric t
 2. **Energy demand keeps rising**, requiring faster deployment of clean generation and efficiency (IEA World Energy Outlook).
 3. **Methane cuts are among the fastest near-term climate wins** (UNEP Global Methane Assessment).
 
+## Expanded Research Scope (Required in revvel-standards)
+
+Every WR/PR must include robust intervention search coverage beyond the baseline portfolio, including:
+
+- **U10 building/electrification pathways**: heat pumps, distributed solar, and other rapid electrification measures.
+- **Water-based generation pathways**: hydropower optimization plus marine/water energy modules where regional resource quality supports deployment.
+- **Digital and AI infrastructure pathways**: green software practices, efficient compute architecture, and carbon-aware operations for server farms/data centers.
+- **Creative integrated infrastructure**: atmospheric water generation (AWG), rooftop gardens, and biosolar roof concepts when they improve cooling, water resilience, or total system efficiency.
+
+## Intervention Discovery Engine (Implementation Requirement)
+
+To implement this in one iteration, each WR/PR must ship an intervention discovery engine section (project + website/UI) that includes:
+
+1. Candidate intervention module
+2. Evidence strength (peer-reviewed / intergovernmental / public-agency)
+3. Deployment fit by region (readiness + constraints)
+4. Expected 3-year abatement contribution
+5. Pilot design and measurement plan
+
 ## Target Customers
 
 - National and regional governments with legally binding climate plans
@@ -49,3 +68,9 @@ XHUMANITY provides:
 - IPCC, *AR6 Synthesis Report* (2023): https://www.ipcc.ch/report/ar6/syr/
 - International Energy Agency (IEA), *World Energy Outlook*
 - UNEP, *Global Methane Assessment*
+- IPCC, *AR6 WGIII Chapter 6 (Energy Systems)*: https://www.ipcc.ch/report/ar6/wg3/chapter/chapter-6/
+- IEA, *Renewables*: https://www.iea.org/energy-system/renewables
+- IEA, *Data centres and data transmission networks*: https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks
+- IRENA (International Renewable Energy Agency): https://www.irena.org/
+- PLOS Water, *Benchmarks of production for atmospheric water generators*: https://journals.plos.org/water/article?id=10.1371/journal.pwat.0000133
+- Green Software Foundation learning resources: https://learn.greensoftware.foundation/

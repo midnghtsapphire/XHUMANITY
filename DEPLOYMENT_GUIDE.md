@@ -5,6 +5,14 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
 ## Single Iteration Deployment
 
 - Create a country/region emissions baseline (electricity, buildings, industry, methane).
+- Run the **Intervention Discovery Engine** in the same one-iteration release and publish results in the project website/UI test surface.
+- Minimum required module search coverage per WR/PR:
+  - Heat pumps and building electrification
+  - Solar and other distributed clean-power modules
+  - Water-based generation pathways (hydro/marine where viable)
+  - Green software and AI/data-center efficiency pathways
+  - Creative co-benefit modules (AWG, rooftop gardens/biosolar) when regionally feasible
+- For each candidate module, store: evidence links, readiness constraints, expected 3-year abatement contribution, and pilot measurement design.
 - Define local reduction quota aligned to the global 10 million kg CO2e target using:
   - Share of baseline emissions (50% weight)
   - Abatement potential by sector (30% weight)
