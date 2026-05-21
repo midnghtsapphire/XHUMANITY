@@ -45,6 +45,6 @@ XHUMANITY provides:
 
 ## Sources
 
-- IPCC, *AR6 Synthesis Report*
+- IPCC, *AR6 Synthesis Report* (2023): https://www.ipcc.ch/report/ar6/syr/
 - International Energy Agency (IEA), *World Energy Outlook*
 - UNEP, *Global Methane Assessment*

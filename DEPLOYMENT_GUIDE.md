@@ -9,6 +9,8 @@ This guide defines how to deploy XHUMANITY programs toward the 2035 emissions ta
   - Share of baseline emissions (50% weight)
   - Abatement potential by sector (30% weight)
   - Delivery readiness (20% weight)
+- Abatement Potential Score: normalized 0-1 score from technical potential model (`regional feasible tCO2e reduction / max regional feasible tCO2e reduction`).
+- Delivery Readiness Score: normalized 0-1 score from implementation readiness index (permitting maturity, partner readiness, financing availability, and grid interconnection readiness).
 - Calculation formula: `Quota Share = 0.5(Baseline Share) + 0.3(Abatement Potential Score) + 0.2(Delivery Readiness Score)`.
 - Example: if a region scores 0.10 baseline share, 0.12 abatement potential, and 0.08 readiness, quota share = `0.5(0.10)+0.3(0.12)+0.2(0.08)=0.102` (10.2% of global pathway allocation).
 - Apply a 0.9 conservatism factor to modeled reductions and keep a public registry of project IDs to prevent double counting.
