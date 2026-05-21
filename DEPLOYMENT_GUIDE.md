@@ -16,13 +16,13 @@ This guide defines how to deploy XHUMANITY in a single ship-to-market iteration 
   - Creative co-benefit modules (AWG, rooftop gardens/biosolar) when regionally feasible
 - For each candidate module, store: evidence links, readiness constraints, expected 3-year abatement contribution, and pilot measurement design.
 - Minimum JSON schema for `intervention_modules.json`:
-  - `module_id` (string)
-  - `module_name` (string)
-  - `evidence_links` (array of URLs)
-  - `readiness_constraints` (array of strings)
-  - `abatement_3y_kg_co2e` (number)
-  - `pilot_measurement_plan` (string)
-  - `status` (`candidate` | `pilot` | `deployed`)
+  - `module_id` (required string, 1-64 chars, snake_case identifier)
+  - `module_name` (required string, 1-120 chars)
+  - `evidence_links` (required array of 1+ HTTPS URLs)
+  - `readiness_constraints` (required array of 1+ strings, each 1-240 chars)
+  - `expected_abatement_3y_kg_co2e` (required number, `>= 0`)
+  - `pilot_measurement_plan` (required string, 1-1000 chars)
+  - `status` (required enum: `candidate` | `pilot` | `deployed`)
 - Define local reduction quota aligned to the global 10 million kg CO2e target using:
   - Share of baseline emissions (50% weight)
   - Abatement potential by sector (30% weight)
