@@ -55,10 +55,10 @@ Implementation details are defined in `GO_TO_MARKET.md` and `DEPLOYMENT_GUIDE.md
 
 Every S2M WR/PR must publish a live website/UI test surface and record it in this README:
 
-- `Website in Test (Vercel)`: `<vercel-preview-or-production-url>`
+- `Website-in-Test (Vercel)`: `<vercel-preview-or-production-url>`
 - `Intervention API/Test Export`: `<endpoint or path to intervention_modules.json>`
 - `Build/Deploy Automation`: `<workflow or deployment job reference>`
-- Hosting requirement: Website in Test must run on **Vercel** (not Netlify) to support required database integrations.
+- Hosting requirement: Website-in-Test must run on **Vercel** (not Netlify) to support required database integrations.
 
 If these fields are missing, the WR/PR is not revvel-standards complete.
 
