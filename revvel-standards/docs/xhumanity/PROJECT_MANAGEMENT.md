@@ -29,10 +29,11 @@ Use this file as the canonical board definition for a project named `xHumanity`.
 ## Initial Backlog
 
 1. Maintain the intervention discovery engine standard.
-2. Publish the Website in Test on Vercel.
+2. Publish the Website-in-Test on Vercel.
 3. Publish and validate `intervention_modules.json`.
 4. Record build/deploy automation references in `/README.md`.
 5. Expand research coverage for all required intervention categories in `/GO_TO_MARKET.md`.
+6. Add WR labels and reviewer routing so Jules rewrite support is triggered when a WR/PR is created.
 
 ## Minimum Views
 

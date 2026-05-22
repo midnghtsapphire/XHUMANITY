@@ -1,13 +1,13 @@
 # xHumanity Revvel Standards Index
 
-This folder is the canonical `revvel-standards/docs` location for the XHUMANITY project.
+This folder (`revvel-standards/docs/xhumanity/`) is the canonical revvel-standards docs location for the XHUMANITY project.
 
 ## Project Analysis
 
 - **Project value**: identify, rank, and launch verified climate interventions that can materially reduce emissions within a 3-year execution window.
 - **Goal priority**:
   1. Maintain the intervention discovery and scoring standard.
-  2. Ship the Website in Test and machine-readable export required by S2M.
+  2. Ship the Website-in-Test and machine-readable export required by S2M.
   3. Turn ranked interventions into pilot and deployment decisions.
 - **How this advances the overall goal**: the project converts climate research into deployment-ready actions tied to the repository's 10 million kg CO2e reduction target.
 
