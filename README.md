@@ -6,6 +6,13 @@ XHUMANITY is a standards-first initiative focused on one measurable mission:
 
 This repository provides the revvel-standards ship-to-market baseline for that mission.
 
+## Canonical Revvel Standards Docs Path
+
+The project-scoped revvel-standards docs for this repository live in:
+
+- `revvel-standards/docs/xhumanity/README.md`
+- `revvel-standards/docs/xhumanity/PROJECT_MANAGEMENT.md`
+
 ## Revvel-Standards S2M Rules
 
 - Every WR/PR must ship in one iteration with a complete, testable website/UI surface.
@@ -41,20 +48,24 @@ Implementation details are defined in `GO_TO_MARKET.md` and `DEPLOYMENT_GUIDE.md
 - `GO_TO_MARKET.md`
 - `BRAND_GUIDELINES.md`
 - `SECURITY.md`
+- `revvel-standards/docs/xhumanity/README.md`
+- `revvel-standards/docs/xhumanity/PROJECT_MANAGEMENT.md`
 
 ## Website-in-Test (Required)
 
 Every S2M WR/PR must publish a live website/UI test surface and record it in this README:
 
-- `Website in Test (Vercel)`: `<vercel-preview-or-production-url>`
+- `Website-in-Test (Vercel)`: `<vercel-preview-or-production-url>`
 - `Intervention API/Test Export`: `<endpoint or path to intervention_modules.json>`
 - `Build/Deploy Automation`: `<workflow or deployment job reference>`
-- Hosting requirement: Website in Test must run on **Vercel** (not Netlify) to support required database integrations.
+- Hosting requirement: Website-in-Test must run on **Vercel** (not Netlify) to support required database integrations.
 
 If these fields are missing, the WR/PR is not revvel-standards complete.
 
 ## Quick Start
 
-1. Review the strategy in `GO_TO_MARKET.md`.
-2. Use `DEPLOYMENT_GUIDE.md` to launch pilots.
-3. Track updates in `CHANGELOG.md`.
+1. Review the project-scoped S2M process in `revvel-standards/docs/xhumanity/README.md`.
+2. Review the strategy in `GO_TO_MARKET.md`.
+3. Use `DEPLOYMENT_GUIDE.md` to launch pilots.
+4. Track delivery work in `revvel-standards/docs/xhumanity/PROJECT_MANAGEMENT.md`.
+5. Track updates in `CHANGELOG.md`.
