@@ -4,6 +4,10 @@ All notable changes to this project are documented in this file.
 
 ## [Unreleased]
 
+### Added
+
+- Added a canonical `revvel-standards/docs/xhumanity/` docs location with a project index and project-management template for S2M work.
+
 ### Changed
 
 - Replaced phased/milestone S2M framing with a single-iteration delivery model.
